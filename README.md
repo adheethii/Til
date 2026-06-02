@@ -9,7 +9,7 @@ A collection of things I learn every day across AI, ML, Python, and Data Science
 - [LangChain & RAG](./langchain/)
 - [Computer Vision](./computer-vision/)
 - [Machine Learning](./machine-learning/)
-
+- [Power BI](./power-bi/)
 ---
 
 ## 📝 Recent Notes

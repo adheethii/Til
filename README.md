@@ -10,13 +10,15 @@ A collection of things I learn every day across AI, ML, Python, and Data Science
 - [Computer Vision](./computer-vision/)
 - [Machine Learning](./machine-learning/)
 - [Power BI](./power-bi/)
-- - [Prompt Engineering](./prompt-engineering/)
+- [Prompt Engineering](./prompt-engineering/)
 ---
 
 ## 📝 Recent Notes
 
 | Date | Topic | Note |
 |------|-------|------|
+| 2026-06-06 | Prompt Engineering | [System prompts and roles explained](./prompt-engineering/system-prompts-and-roles.md) |
+| 2026-06-06 | Prompt Engineering | [Zero-shot vs Few-shot prompting](./prompt-engineering/zero-shot-vs-few-shot-prompting.md) |
 | 2026-06-04 | Prompt Engineering | [What is prompt engineering and why it matters](./prompt-engineering/what-is-prompt-engineering.md) |
 | 2026-05-27 | LangChain | [How RAG works with LangChain and FAISS](./langchain/how-rag-works.md) |
 | 2026-05-27 | Computer Vision | [How face recognition works in Python](./computer-vision/how-face-recognition-works.md) |

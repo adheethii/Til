@@ -1,30 +1,48 @@
 # 📚 TIL — Today I Learned
 
-A collection of things I learn every day across AI, ML, Python, and Data Science.
+> A public learning journal — one note every day across AI, ML, Python, and Data Science.
+
+![Notes](https://img.shields.io/badge/Total%20Notes-11-brightgreen?style=flat)
+![Topics](https://img.shields.io/badge/Topics-6-blue?style=flat)
+![Streak](https://img.shields.io/badge/Learning-Daily-orange?style=flat)
 
 ---
 
 ## 📂 Categories
 
-- [LangChain & RAG](./langchain/)
-- [Computer Vision](./computer-vision/)
-- [Machine Learning](./machine-learning/)
-- [Power BI](./power-bi/)
-- [Prompt Engineering](./prompt-engineering/)
+| Category | Notes | Topics Covered |
+|----------|-------|----------------|
+| [🔗 Prompt Engineering](./prompt-engineering/) | 4 | Basics, Zero-shot, Few-shot, Roles |
+| [🤖 LangChain & RAG](./langchain/) | 1 | RAG, FAISS, Ollama |
+| [👁️ Computer Vision](./computer-vision/) | 1 | Face recognition, OpenCV |
+| [📊 Machine Learning](./machine-learning/) | 2 | Evaluation, SMOTE |
+| [📈 Power BI](./power-bi/) | 1 | DAX measures |
+| [🐍 Python](./python/) | 1 | API keys, .env files |
+
+---
+
+## 🗺️ Current Focus
+
+**Prompt Engineering** — working through a structured roadmap from basics to advanced techniques.
+→ [View Roadmap](./prompt-engineering/ROADMAP.md)
+
 ---
 
 ## 📝 Recent Notes
 
-| Date | Topic | Note |
-|------|-------|------|
-| 2026-06-06 | Prompt Engineering | [System prompts and roles explained](./prompt-engineering/system-prompts-and-roles.md) |
-| 2026-06-06 | Prompt Engineering | [Zero-shot vs Few-shot prompting](./prompt-engineering/zero-shot-vs-few-shot-prompting.md) |
-| 2026-06-04 | Prompt Engineering | [What is prompt engineering and why it matters](./prompt-engineering/what-is-prompt-engineering.md) |
-| 2026-05-27 | LangChain | [How RAG works with LangChain and FAISS](./langchain/how-rag-works.md) |
-| 2026-05-27 | Computer Vision | [How face recognition works in Python](./computer-vision/how-face-recognition-works.md) |
-| 2026-05-28 | Machine Learning | [How ML model evaluation works](./machine-learning/how-ml-model-evaluation-works.md) |
-| 2026-05-29 | Machine Learning | [How SMOTE handles imbalanced data](./machine-learning/how-smote-handles-imbalanced-data.md) |
-| 2026-05-30 | Power BI | [How Power BI DAX measures work](./power-bi/how-power-bi-dax-measures-work.md) |
+| Date | Category | Note |
+|------|----------|------|
+| 2026-06-09 | 🔗 Prompt Engineering | [Role prompting techniques](./prompt-engineering/role-prompting-techniques.md) |
+| 2026-06-06 | 🔗 Prompt Engineering | [System prompts and roles explained](./prompt-engineering/system-prompts-and-roles.md) |
+| 2026-06-06 | 🔗 Prompt Engineering | [Zero-shot vs Few-shot prompting](./prompt-engineering/zero-shot-vs-few-shot-prompting.md) |
+| 2026-06-04 | 🔗 Prompt Engineering | [What is prompt engineering and why it matters](./prompt-engineering/what-is-prompt-engineering.md) |
+| 2026-06-04 | 🐍 Python | [How API keys and .env files work](./python/how-api-keys-and-env-files-work.md) |
+| 2026-05-30 | 📈 Power BI | [How Power BI DAX measures work](./power-bi/how-power-bi-dax-measures-work.md) |
+| 2026-05-29 | 📊 Machine Learning | [How SMOTE handles imbalanced data](./machine-learning/how-smote-handles-imbalanced-data.md) |
+| 2026-05-28 | 📊 Machine Learning | [How ML model evaluation works](./machine-learning/how-ml-model-evaluation-works.md) |
+| 2026-05-27 | 👁️ Computer Vision | [How face recognition works in Python](./computer-vision/how-face-recognition-works.md) |
+| 2026-05-27 | 🤖 LangChain & RAG | [How RAG works with LangChain and FAISS](./langchain/how-rag-works.md) |
+
 ---
 
-*Inspired by the [TIL](https://github.com/jbranchaud/til) habit — learning in public, one note at a time.*
+*Learning in public, one note at a time 🚀*

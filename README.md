@@ -12,7 +12,7 @@
 
 | Category | Notes | Topics Covered |
 |----------|-------|----------------|
-| [🔗 Prompt Engineering](./prompt-engineering/) | 4 | Basics, Zero-shot, Few-shot, Roles |
+| [🔗 Prompt Engineering](./prompt-engineering/) | 4 | Basics, Zero-shot, Few-shot, Roles, CoT |
 | [🤖 LangChain & RAG](./langchain/) | 1 | RAG, FAISS, Ollama |
 | [👁️ Computer Vision](./computer-vision/) | 1 | Face recognition, OpenCV |
 | [📊 Machine Learning](./machine-learning/) | 2 | Evaluation, SMOTE |
@@ -32,6 +32,7 @@
 
 | Date | Category | Note |
 |------|----------|------|
+| 2026-06-11 | 🔗 Prompt Engineering | [Chain of Thought (CoT) prompting](./prompt-engineering/chain-of-thought-prompting.md) |
 | 2026-06-09 | 🔗 Prompt Engineering | [Role prompting techniques](./prompt-engineering/role-prompting-techniques.md) |
 | 2026-06-06 | 🔗 Prompt Engineering | [System prompts and roles explained](./prompt-engineering/system-prompts-and-roles.md) |
 | 2026-06-06 | 🔗 Prompt Engineering | [Zero-shot vs Few-shot prompting](./prompt-engineering/zero-shot-vs-few-shot-prompting.md) |

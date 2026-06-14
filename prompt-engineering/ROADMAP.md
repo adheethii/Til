@@ -17,8 +17,8 @@ Topics are added one by one as I learn them.
 ## 📍 Phase 2 — Core Techniques
 
 - [x] [Chain of Thought (CoT) prompting](./chain-of-thought-prompting.md)
-- [x] Temperature and top-p explained
-- [x] Prompt chaining
+- [x] [Temperature and top-p explained](./temperature-and-top-p.md)
+- [x] [Prompt chaining](./temperature-and-top-p.md)
 - [ ] Output formatting (JSON, markdown, lists)
 
 ---

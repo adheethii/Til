@@ -18,7 +18,7 @@ Topics are added one by one as I learn them.
 
 - [x] [Chain of Thought (CoT) prompting](./chain-of-thought-prompting.md)
 - [x] [Temperature and top-p explained](./temperature-and-top-p.md)
-- [x] [Prompt chaining](./temperature-and-top-p.md)
+- [x] [Prompt chaining](./prompt-chaining.md)
 - [ ] Output formatting (JSON, markdown, lists)
 
 ---

@@ -12,6 +12,7 @@
 
 | Category | Notes | Topics Covered |
 |----------|-------|----------------|
+| [🌐 APIs](./apis/) | 0 | Starting soon... |
 | [🔗 Prompt Engineering](./prompt-engineering/) | 7 | Basics, Zero-shot, Few-shot, Roles, CoT, Temperature, Chaining |
 | [🤖 LangChain & RAG](./langchain/) | 1 | RAG, FAISS, Ollama |
 | [👁️ Computer Vision](./computer-vision/) | 1 | Face recognition, OpenCV |

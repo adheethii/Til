@@ -2,7 +2,7 @@
 
 > A public learning journal — one note every day across AI, ML, Python, and Data Science.
 
-![Notes](https://img.shields.io/badge/Total%20Notes-11-brightgreen?style=flat)
+![Notes](https://img.shields.io/badge/Total%20Notes-14-brightgreen?style=flat)
 ![Topics](https://img.shields.io/badge/Topics-6-blue?style=flat)
 ![Streak](https://img.shields.io/badge/Learning-Daily-orange?style=flat)
 
@@ -12,7 +12,7 @@
 
 | Category | Notes | Topics Covered |
 |----------|-------|----------------|
-| [🔗 Prompt Engineering](./prompt-engineering/) | 4 | Basics, Zero-shot, Few-shot, Roles, CoT |
+| [🔗 Prompt Engineering](./prompt-engineering/) | 7 | Basics, Zero-shot, Few-shot, Roles, CoT, Temperature, Chaining |
 | [🤖 LangChain & RAG](./langchain/) | 1 | RAG, FAISS, Ollama |
 | [👁️ Computer Vision](./computer-vision/) | 1 | Face recognition, OpenCV |
 | [📊 Machine Learning](./machine-learning/) | 2 | Evaluation, SMOTE |
@@ -32,6 +32,8 @@
 
 | Date | Category | Note |
 |------|----------|------|
+| 2026-06-15 | 🔗 Prompt Engineering | [Prompt chaining](./prompt-engineering/prompt-chaining.md) |
+| 2026-06-15 | 🔗 Prompt Engineering | [Temperature and top-p explained](./prompt-engineering/temperature-and-top-p-explained.md) |
 | 2026-06-11 | 🔗 Prompt Engineering | [Chain of Thought (CoT) prompting](./prompt-engineering/chain-of-thought-prompting.md) |
 | 2026-06-09 | 🔗 Prompt Engineering | [Role prompting techniques](./prompt-engineering/role-prompting-techniques.md) |
 | 2026-06-06 | 🔗 Prompt Engineering | [System prompts and roles explained](./prompt-engineering/system-prompts-and-roles.md) |

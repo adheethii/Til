@@ -1,89 +1,102 @@
-# 🌡️ Temperature and Top-p Explained
+# Temperature and Top-p Explained
 
-## What are Temperature and Top-p?
+**Date:** 2026-06-15
 
-Temperature and Top-p are parameters that control how a Large Language Model generates responses. They influence the balance between creativity and predictability.
+## What are These Parameters?
+
+When an LLM generates text, it doesn't just pick the most likely next word — it samples from a probability distribution. **Temperature** and **top-p** control how that sampling works.
 
 ---
 
 ## Temperature
 
-Temperature controls randomness in the model's output.
+Temperature controls how **creative vs predictable** the output is.
 
-- **Low Temperature (0–0.3):**
-  - More deterministic
-  - Focused and factual responses
-  - Best for coding and summarization
+```
+Low temperature  → conservative, focused, deterministic
+High temperature → creative, diverse, sometimes random
+```
 
-- **Medium Temperature (0.5–0.7):**
-  - Balanced creativity and accuracy
-  - Suitable for general conversations
+### Scale
 
-- **High Temperature (0.8–1.0+):**
-  - More diverse and creative outputs
-  - Useful for storytelling and brainstorming
+| Temperature | Behavior | Use Case |
+|-------------|----------|----------|
+| 0.0 | Always picks the most likely token | Factual Q&A, code generation |
+| 0.3 | Mostly predictable, slight variation | Summarization, classification |
+| 0.7 | Balanced — default for most LLMs | General chat, writing |
+| 1.0 | More creative, less predictable | Brainstorming, creative writing |
+| 1.5+ | Very random, may be incoherent | Experimental only |
 
-### Example Prompt
+### Example
 
-**Prompt:**
-> Suggest a title for a blog about AI.
+```python
+# Low temperature — precise and factual
+response = llm.invoke("What is RAG?", temperature=0.1)
+# → Gives a consistent, accurate definition every time
 
-**Low Temperature:**
-> Understanding Artificial Intelligence
-
-**High Temperature:**
-> When Machines Dream: Exploring the Future of AI
+# High temperature — creative
+response = llm.invoke("Write a tagline for my AI app", temperature=0.9)
+# → Gives different, creative answers each time
+```
 
 ---
 
 ## Top-p (Nucleus Sampling)
 
-Top-p limits the model to choosing from the smallest set of words whose cumulative probability reaches a threshold.
+Top-p controls which **pool of tokens** the LLM can sample from.
 
-- **Low Top-p (0.1–0.3):**
-  - Safer and predictable responses
+```
+top-p = 0.9 → only consider tokens whose cumulative
+               probability adds up to 90%
+```
 
-- **Medium Top-p (0.5–0.8):**
-  - Balanced outputs
+It cuts off the long tail of unlikely tokens dynamically.
 
-- **High Top-p (0.9–1.0):**
-  - Greater diversity and creativity
+| Top-p | Behavior |
+|-------|----------|
+| 0.1 | Very restricted — only top tokens |
+| 0.5 | Moderate variety |
+| 0.9 | Default — good balance |
+| 1.0 | All tokens considered |
 
 ---
 
 ## Temperature vs Top-p
 
-| Temperature | Top-p |
-|------------|--------|
-| Controls randomness directly | Controls the pool of candidate tokens |
-| Adjusts confidence | Adjusts diversity |
-| Easier to understand | More selective generation |
+| | Temperature | Top-p |
+|--|-------------|-------|
+| Controls | Sharpness of distribution | Size of token pool |
+| Effect | How random the output is | Which tokens are available |
+| Typical default | 0.7 | 0.9 |
+
+**Best practice** — tune one at a time. Don't change both simultaneously.
 
 ---
 
-## Recommended Settings
+## Practical Settings
 
-| Task | Temperature | Top-p |
-|--------|------------|--------|
-| Coding | 0.1–0.3 | 0.9 |
-| Summarization | 0.2–0.4 | 0.9 |
-| Question Answering | 0.2–0.5 | 0.9 |
-| Brainstorming | 0.8–1.0 | 1.0 |
-| Creative Writing | 0.9–1.0 | 1.0 |
+```python
+# For RAG / factual answers
+temperature = 0.1, top_p = 0.9
 
----
+# For general chat
+temperature = 0.7, top_p = 0.9
 
-## Key Takeaways
+# For creative writing
+temperature = 0.9, top_p = 0.95
 
-- Lower values produce reliable outputs.
-- Higher values increase creativity.
-- Start by adjusting Temperature before Top-p.
-- Avoid changing both drastically at the same time.
+# For code generation
+temperature = 0.2, top_p = 0.9
+```
 
 ---
 
-## References
+## What I Apply
 
-- OpenAI Documentation
-- Anthropic Documentation
-- Google Gemini Documentation
+In my [Agentic RAG Research Assistant](https://github.com/adheethii/agentic-rag-ai-research-assistant) — low temperature (0.1–0.2) is used for document Q&A to keep answers grounded and consistent, while slightly higher temperature is used for summarization to allow more natural phrasing.
+
+---
+
+## Key Takeaway
+
+> Temperature controls creativity — lower is more focused, higher is more random. Top-p controls which tokens are even considered. For factual AI apps like RAG, keep temperature low. For creative tasks, raise it.

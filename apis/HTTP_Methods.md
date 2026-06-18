@@ -1,127 +1,106 @@
-# 🔧 HTTP Methods Explained
+# HTTP Methods Explained (GET, POST, PUT, DELETE)
 
-HTTP methods define the action a client wants to perform on a resource.
+**Date:** 2026-06-17
+
+## What are HTTP Methods?
+
+HTTP methods (also called verbs) tell the server **what action to perform** on a resource.
+
+```
+Method + URL = Complete instruction
+GET /users/1  → "Give me user 1"
+DELETE /users/1 → "Delete user 1"
+```
 
 ---
 
-## 1. GET
+## The 4 Main Methods
 
-Used to retrieve data from the server.
+### GET — Read
+Retrieve data. Never modifies anything.
+```
+GET /users          → get all users
+GET /users/1        → get user with ID 1
 
-### Example
-
-```http
-GET /users
+Response: 200 OK + data
 ```
 
-### Response
-
-```json
-[
-  {
-    "id": 1,
-    "name": "John"
-  }
-]
+### POST — Create
+Send data to create a new resource.
 ```
-
-### Characteristics
-
-- Read-only
-- Does not modify data
-
----
-
-## 2. POST
-
-Used to create new data.
-
-### Example
-
-```http
 POST /users
+Body: { "name": "Adheethi", "email": "adheethii@gmail.com" }
+
+Response: 201 Created + new resource
 ```
 
-Request Body:
-
-```json
-{
-  "name": "John",
-  "email": "john@example.com"
-}
+### PUT — Update (Full)
+Replace an entire resource with new data.
 ```
-
-### Result
-
-A new user is created.
-
----
-
-## 3. PUT
-
-Used to update existing data.
-
-### Example
-
-```http
 PUT /users/1
+Body: { "name": "Adheethi K", "email": "adheethii@gmail.com" }
+
+Response: 200 OK + updated resource
 ```
 
-Request Body:
-
-```json
-{
-  "name": "John Smith",
-  "email": "johnsmith@example.com"
-}
+### DELETE — Delete
+Remove a resource.
 ```
-
-### Result
-
-User information is updated.
-
----
-
-## 4. DELETE
-
-Used to remove data.
-
-### Example
-
-```http
 DELETE /users/1
+
+Response: 204 No Content
 ```
 
-### Result
+---
 
-User is deleted from the database.
+## PATCH vs PUT
+
+| | PUT | PATCH |
+|--|-----|-------|
+| Updates | Entire resource | Only specified fields |
+| Body | All fields required | Only changed fields |
+
+```
+PATCH /users/1
+Body: { "name": "Adheethi K" }  ← only update name
+```
 
 ---
 
-## CRUD Operations Mapping
+## Quick Reference
 
-| Operation | HTTP Method |
-|------------|------------|
-| Create | POST |
-| Read | GET |
-| Update | PUT |
-| Delete | DELETE |
-
-CRUD = Create, Read, Update, Delete
-
----
-
-## Quick Comparison
-
-| Method | Purpose |
-|----------|----------|
-| GET | Retrieve data |
-| POST | Create data |
-| PUT | Update data |
-| DELETE | Remove data |
+| Method | Action | Request Body | Success Code |
+|--------|--------|--------------|--------------|
+| GET | Read | None | 200 OK |
+| POST | Create | Yes | 201 Created |
+| PUT | Full Update | Yes | 200 OK |
+| PATCH | Partial Update | Yes | 200 OK |
+| DELETE | Delete | None | 204 No Content |
 
 ---
 
-## Summary
+## Python Example
 
-> HTTP methods define what action should be performed on a resource in a REST API.
+```python
+import requests
+
+# GET
+response = requests.get("https://api.example.com/users/1")
+
+# POST
+response = requests.post("https://api.example.com/users",
+    json={"name": "Adheethi", "email": "adheethii@gmail.com"})
+
+# PUT
+response = requests.put("https://api.example.com/users/1",
+    json={"name": "Adheethi K", "email": "adheethii@gmail.com"})
+
+# DELETE
+response = requests.delete("https://api.example.com/users/1")
+```
+
+---
+
+## Key Takeaway
+
+> GET reads, POST creates, PUT replaces, DELETE removes. PATCH is like PUT but only updates what you specify. Methods + URLs together form the complete language of REST APIs.

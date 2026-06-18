@@ -7,11 +7,11 @@ Topics are added one by one as I learn them.
 
 ## 📍 Phase 1 — Basics
 
-- ⬜ What is an API and how it works
-- ⬜ REST API basics
-- ⬜ HTTP methods explained (GET, POST, PUT, DELETE)
-- ⬜ HTTP status codes (200, 404, 500...)
-- ⬜ JSON request and response format
+- ✅ What is an API and how it works
+- ✅ REST API basics
+- ✅ HTTP methods explained (GET, POST, PUT, DELETE)
+- ✅ HTTP status codes (200, 404, 500...)
+- ✅ JSON request and response format
 
 ---
 

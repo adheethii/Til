@@ -1,131 +1,88 @@
-# 🌐 REST API Basics
+# REST API Basics
 
-## What is a REST API?
+**Date:** 2026-06-16
 
-REST stands for **Representational State Transfer**.
+## What is REST?
 
-A REST API is a type of API that follows a set of rules for communication between clients and servers using HTTP.
+**REST = Representational State Transfer**
 
-REST APIs are the most commonly used APIs on the web.
+REST is an architectural style for building APIs. A REST API uses HTTP to communicate and follows a set of principles that make it simple, scalable, and stateless.
 
 ---
 
-## How REST Works
+## Core REST Principles
 
-A client sends an HTTP request to a server.
+| Principle | Meaning |
+|-----------|---------|
+| Stateless | Each request is independent — server stores no session |
+| Client-Server | Frontend and backend are separate |
+| Uniform Interface | Consistent URL structure and methods |
+| Resource-Based | Everything is a resource with its own URL |
 
-The server processes the request and returns an HTTP response.
+---
 
-### Example
+## Resources and URLs
 
-Request:
+In REST, everything is a **resource** — and each resource has a unique URL.
 
-```http
-GET https://api.example.com/users/1
+```
+https://api.example.com/users          → all users
+https://api.example.com/users/1        → user with ID 1
+https://api.example.com/users/1/posts  → posts by user 1
 ```
 
-Response:
+**URL naming rules:**
+```
+✅ /users          (plural nouns)
+✅ /users/1        (resource ID)
+✅ /users/1/posts  (nested resource)
+
+❌ /getUsers       (no verbs)
+❌ /user           (not plural)
+❌ /Users          (not uppercase)
+```
+
+---
+
+## REST vs Non-REST
+
+```
+❌ Non-REST (old style):
+/getUser?id=1
+/createUser
+/deleteUser?id=1
+
+✅ REST:
+GET    /users/1    → get user
+POST   /users      → create user
+DELETE /users/1    → delete user
+```
+
+---
+
+## Request Structure
+
+```
+Method  URL                Headers          Body
+GET     /api/users/1       Authorization:   (none)
+                           Bearer token123
+```
+
+## Response Structure
 
 ```json
 {
-  "id": 1,
-  "name": "John",
-  "email": "john@example.com"
+  "status": 200,
+  "data": {
+    "id": 1,
+    "name": "Adheethi",
+    "email": "adheethii@gmail.com"
+  }
 }
 ```
 
 ---
 
-## Key Principles of REST
+## Key Takeaway
 
-### 1. Client-Server Architecture
-
-The client and server are separate.
-
-- Client → Requests data
-- Server → Provides data
-
----
-
-### 2. Stateless Communication
-
-Each request contains all information needed.
-
-The server does not remember previous requests.
-
----
-
-### 3. Resource-Based URLs
-
-Everything is treated as a resource.
-
-Examples:
-
-```text
-/users
-/products
-/orders
-```
-
----
-
-### 4. Uses HTTP Methods
-
-REST APIs use:
-
-- GET
-- POST
-- PUT
-- DELETE
-
-to perform operations on resources.
-
----
-
-## REST API Example
-
-### Get all users
-
-```http
-GET /users
-```
-
-### Get one user
-
-```http
-GET /users/1
-```
-
-### Create a user
-
-```http
-POST /users
-```
-
-### Update a user
-
-```http
-PUT /users/1
-```
-
-### Delete a user
-
-```http
-DELETE /users/1
-```
-
----
-
-## Advantages of REST APIs
-
-- Easy to understand
-- Scalable
-- Lightweight
-- Platform independent
-- Widely supported
-
----
-
-## Summary
-
-> REST API is a web API architecture that uses HTTP methods to perform operations on resources.
+> REST APIs are resource-based — URLs represent things (nouns), HTTP methods represent actions (verbs). Keep URLs clean, plural, and lowercase. Each request is stateless and self-contained.

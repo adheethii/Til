@@ -17,9 +17,9 @@ Topics are added one by one as I learn them.
 
 ## 📍 Phase 2 — Using APIs
 
-- ⬜ Calling APIs with Python requests library
-- ⬜ Authentication (API keys, Bearer tokens)
-- ⬜ Handling API errors gracefully
+- ✅️ Calling APIs with Python requests library
+- ✅️ Authentication (API keys, Bearer tokens)
+- ✅️ Handling API errors gracefully
 
 ---
 

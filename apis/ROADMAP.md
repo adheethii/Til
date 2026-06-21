@@ -25,8 +25,8 @@ Topics are added one by one as I learn them.
 
 ## 📍 Phase 3 — Building APIs
 
-- ⬜ FastAPI basics
-- ⬜ Creating your first endpoint
+- ✅️ FastAPI basics
+- ✅️ Creating your first endpoint
 - ⬜ Request and response models with Pydantic
 - ⬜ Deploying a FastAPI app
 

@@ -6,17 +6,9 @@
 
 ![Notes](https://img.shields.io/badge/Total%20Notes-27-brightgreen?style=flat)
 
-
-
-
 ![Topics](https://img.shields.io/badge/Topics-7-blue?style=flat)
 
-
-
-
 ![Streak](https://img.shields.io/badge/Learning-Daily-orange?style=flat)
-
-
 
 ---
 

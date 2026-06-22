@@ -27,7 +27,7 @@ Topics are added one by one as I learn them.
 
 - ✅️ FastAPI basics
 - ✅️ Creating your first endpoint
-- ⬜ Request and response models with Pydantic
+- ✅Request and response models with Pydantic
 - ⬜ Deploying a FastAPI app
 
 ---

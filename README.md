@@ -1,66 +1,73 @@
 # 📚 TIL — Today I Learned
 
-> A public learning journal — one note every day across AI, ML, Python, and Data Science.
-
-
+> A public learning journal documenting my journey through Python, Data Science, Machine Learning, AI, and related technologies — one note at a time.
 
 ![Notes](https://img.shields.io/badge/Total%20Notes-27-brightgreen?style=flat)
-![Topics](https://img.shields.io/badge/Topics-7-blue?style=flat)
-![Streak](https://img.shields.io/badge/Learning-Daily-orange?style=flat)
+![Categories](https://img.shields.io/badge/Categories-7-blue?style=flat)
+![Learning](https://img.shields.io/badge/Learning-Daily-orange?style=flat)
 
 ---
 
-## 📂 Categories
+## 📂 Learning Areas
 
-| Category | Notes | Topics Covered |
-|----------|-------|----------------|
-| [🌐 APIs](./apis/) | 8 | What is API, REST, HTTP Methods, Status Codes, JSON, Requests, Auth, Errors, FastAPI |
-| [🔗 Prompt Engineering](./prompt-engineering/) | 7 | Basics, Zero-shot, Few-shot, Roles, CoT, Temperature, Chaining |
-| [🤖 LangChain & RAG](./langchain/) | 1 | RAG, FAISS, Ollama |
-| [👁️ Computer Vision](./computer-vision/) | 1 | Face recognition, OpenCV |
-| [📊 Machine Learning](./machine-learning/) | 2 | Evaluation, SMOTE |
-| [📈 Power BI](./power-bi/) | 1 | DAX measures |
-| [🐍 Python](./python/) | 1 | API keys, .env files |
-
----
-
-## 🗺️ Current Focus
-
-**APIs & FastAPI** — learning REST APIs from basics to building and deploying ML model endpoints.
-→ [View API Roadmap](./apis/ROADMAP.md)
-
-**Prompt Engineering** — structured roadmap from basics to advanced techniques.
-→ [View Prompt Engineering Roadmap](./prompt-engineering/ROADMAP.md)
+| Category                                       | Notes | Topics Covered                                                                                    |
+| ---------------------------------------------- | ----: | ------------------------------------------------------------------------------------------------- |
+| 🌐 [APIs](./apis/)                             |     8 | API fundamentals, REST, HTTP methods, status codes, JSON, authentication, error handling, FastAPI |
+| 🔗 [Prompt Engineering](./prompt-engineering/) |     7 | Zero-shot, Few-shot, Role prompting, CoT, Temperature, Prompt Chaining                            |
+| 🤖 [LangChain & RAG](./langchain/)             |     2 | LangChain, RAG, FAISS, Agents                                                                     |
+| 👁️ [Computer Vision](./computer-vision/)      |     1 | Face Recognition, OpenCV                                                                          |
+| 📊 [Machine Learning](./machine-learning/)     |     2 | Model Evaluation, SMOTE                                                                           |
+| 📈 [Power BI](./power-bi/)                     |     1 | DAX Measures                                                                                      |
+| 🐍 [Python](./python/)                         |     1 | API Keys, Environment Variables                                                                   |
 
 ---
 
-## 📝 Recent Notes
+## 🎯 Current Focus
 
-| Date | Category | Note |
-|------|----------|------|
-| 2026-06-21 | 🌐 APIs | [Creating your first FastAPI endpoint](./apis/fastapi-first-endpoint.md) |
-| 2026-06-21 | 🌐 APIs | [FastAPI basics](./apis/fastapi-basics.md) |
-| 2026-06-20 | 🌐 APIs | [Handling API errors gracefully](./apis/handling-api-errors.md) |
-| 2026-06-20 | 🌐 APIs | [API authentication - keys and bearer tokens](./apis/api-authentication.md) |
-| 2026-06-17 | 🌐 APIs | [Calling APIs with Python requests](./apis/calling-apis-with-python-requests.md) |
-| 2026-06-17 | 🌐 APIs | [JSON request and response format](./apis/json-request-response-format.md) |
-| 2026-06-17 | 🌐 APIs | [HTTP status codes explained](./apis/http-status-codes.md) |
-| 2026-06-17 | 🌐 APIs | [HTTP methods explained](./apis/http-methods-explained.md) |
-| 2026-06-17 | 🌐 APIs | [REST API basics](./apis/rest-api-basics.md) |
-| 2026-06-17 | 🌐 APIs | [What is an API and how it works](./apis/what-is-an-api.md) |
-| 2026-06-15 | 🔗 Prompt Engineering | [Prompt chaining](./prompt-engineering/prompt-chaining.md) |
-| 2026-06-15 | 🔗 Prompt Engineering | [Temperature and top-p explained](./prompt-engineering/temperature-and-top-p-explained.md) |
-| 2026-06-11 | 🔗 Prompt Engineering | [Chain of Thought (CoT) prompting](./prompt-engineering/chain-of-thought-prompting.md) |
-| 2026-06-09 | 🔗 Prompt Engineering | [Role prompting techniques](./prompt-engineering/role-prompting-techniques.md) |
-| 2026-06-06 | 🔗 Prompt Engineering | [System prompts and roles explained](./prompt-engineering/system-prompts-and-roles.md) |
-| 2026-06-06 | 🔗 Prompt Engineering | [Zero-shot vs Few-shot prompting](./prompt-engineering/zero-shot-vs-few-shot-prompting.md) |
-| 2026-06-04 | 🔗 Prompt Engineering | [What is prompt engineering and why it matters](./prompt-engineering/what-is-prompt-engineering.md) |
-| 2026-06-04 | 🐍 Python | [How API keys and .env files work](./python/how-api-keys-and-env-files-work.md) |
-| 2026-05-30 | 📈 Power BI | [How Power BI DAX measures work](./power-bi/how-power-bi-dax-measures-work.md) |
-| 2026-05-29 | 📊 Machine Learning | [How SMOTE handles imbalanced data](./machine-learning/how-smote-handles-imbalanced-data.md) |
-| 2026-05-28 | 📊 Machine Learning | [How ML model evaluation works](./machine-learning/how-ml-model-evaluation-works.md) |
-| 2026-05-27 | 👁️ Computer Vision | [How face recognition works in Python](./computer-vision/how-face-recognition-works.md) |
-| 2026-05-27 | 🤖 LangChain & RAG | [How RAG works with LangChain and FAISS](./langchain/how-rag-works.md) |
+### 🌐 APIs & FastAPI
+
+Learning how modern APIs work, from REST fundamentals to building and deploying ML-powered endpoints.
+
+➡️ [API Learning Roadmap](./apis/ROADMAP.md)
+
+### 🔗 Prompt Engineering
+
+Exploring prompting techniques from beginner concepts to advanced LLM workflows.
+
+➡️ [Prompt Engineering Roadmap](./prompt-engineering/ROADMAP.md)
+
+---
+
+## 📈 Learning Stats
+
+| Metric         | Value                             |
+| -------------- | --------------------------------- |
+| Total Notes    | 27                                |
+| Categories     | 7                                 |
+| Current Focus  | APIs, FastAPI, Prompt Engineering |
+| Latest Topics  | LangChain Agents, FastAPI, RAG    |
+| Learning Style | Daily Incremental Learning        |
+
+---
+
+## ⭐ Featured Notes
+
+* 🌐 [Creating Your First FastAPI Endpoint](./apis/fastapi-first-endpoint.md)
+* 🌐 [API Authentication: Keys & Bearer Tokens](./apis/api-authentication.md)
+* 🔗 [Chain of Thought (CoT) Prompting](./prompt-engineering/chain-of-thought-prompting.md)
+* 🤖 [How RAG Works with LangChain & FAISS](./langchain/how-rag-works.md)
+* 📊 [How SMOTE Handles Imbalanced Data](./machine-learning/how-smote-handles-imbalanced-data.md)
+* 📈 [How Power BI DAX Measures Work](./power-bi/how-power-bi-dax-measures-work.md)
+
+---
+
+### 🚀 Goals
+
+* Build strong foundations in AI, ML, and Data Science
+* Learn modern LLM and RAG development
+* Master API development with FastAPI
+* Document learning consistently in public
+* Create a knowledge base for future projects
 
 ---
 

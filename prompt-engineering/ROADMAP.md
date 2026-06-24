@@ -19,16 +19,16 @@ Topics are added one by one as I learn them.
 - [x] [Chain of Thought (CoT) prompting](./chain-of-thought-prompting.md)
 - [x] [Temperature and top-p explained](./temperature-and-top-p.md)
 - [x] [Prompt chaining](./prompt-chaining.md)
-- [ ] Output formatting (JSON, markdown, lists)
+- [x] [Output formatting (JSON, markdown, lists)](./output-formatting-in-prompts.md)
 
 ---
 
 ## 📍 Phase 3 — Advanced Techniques
 
-- [ ] ReAct prompting (Reason + Act)
-- [ ] Tree of Thought prompting
-- [ ] Self-consistency prompting
-- [ ] Retrieval Augmented prompting
+- [x] [ReAct prompting (Reason + Act)](./react-prompting.md)
+- [x] [Tree of Thought prompting](./tree-of-thought-prompting.md)
+- [x] [Self-consistency prompting](./self-consistency-prompting.md)
+- [x] [Retrieval Augmented prompting](./retrieval-augmented-prompting.md)
 
 ---
 

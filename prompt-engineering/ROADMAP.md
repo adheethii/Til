@@ -34,10 +34,10 @@ Topics are added one by one as I learn them.
 
 ## 📍 Phase 4 — Real World Applications
 
-- [ ] Prompt engineering for RAG systems
-- [ ] Prompt engineering for agents
-- [ ] Avoiding hallucinations with prompts
-- [ ] Prompt security and injection attacks
+- [x] [Prompt engineering for RAG systems](./prompt-engineering-for-rag.md)
+- [x] [Prompt engineering for agents](./prompt-engineering-for-agents.md)
+- [x] [Avoiding hallucinations with prompts](./avoiding-hallucinations-with-prompts.md)
+- [x] [Prompt security and injection attacks](./prompt-security-injection.md)
 
 ---
 

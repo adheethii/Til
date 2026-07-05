@@ -2,7 +2,7 @@
 
 > A public learning journal documenting my journey through Python, Data Science, Machine Learning, AI, and related technologies — one note at a time.
 
-![Notes](https://img.shields.io/badge/Total%20Notes-76-brightgreen?style=flat)
+![Notes](https://img.shields.io/badge/Total%20Notes-80-brightgreen?style=flat)
 ![Categories](https://img.shields.io/badge/Categories-9-blue?style=flat)
 ![Learning](https://img.shields.io/badge/Learning-Daily-orange?style=flat)
 
@@ -18,9 +18,9 @@
 | 🤖 [LangChain & RAG](./langchain/) | 5 | RAG, FAISS, Agents, Memory, Chains, Document Loaders |
 | 👁️ [Computer Vision](./computer-vision/) | 6 | Face Recognition, OpenCV, Image Processing, Object Detection, Face Recognition Deep Dive, Color Detection |
 | 📊 [Machine Learning](./machine-learning/) | 6 | Model Evaluation, SMOTE, Feature Engineering, Cross-Validation, Random Forest, Hyperparameter Tuning |
-| 📈 [Power BI](./power-bi/) | 6 | DAX Measures, Visuals & Filters, Time Intelligence, Relationships & Data Model, Power Query, Row Level Security |
+| 📈 [Power BI](./power-bi/) | 6 | DAX Measures, Visuals & Filters, Time Intelligence, Relationships, Power Query, Row Level Security |
 | 🐍 [Python](./python/) | 6 | API Keys, List Comprehensions, Decorators, Error Handling, File Handling, Virtual Environments |
-| 🌿 [Git](./git/) | 2 | Branching basics, Merging, Merge Conflicts |
+| 🌿 [Git](./git/) | 4 | Branching, Merging, Conflicts, Pull Requests, GitHub Workflow |
 
 ---
 
@@ -37,8 +37,8 @@ REST fundamentals to building and deploying ML-powered FastAPI endpoints.
 ### 🐳 Docker ✅ Complete!
 Containers, images, compose, volumes, multi-stage builds, and ML deployment.
 
-### 🌿 Git Advanced — In Progress
-Branching, merging, conflicts, PRs and collaborative workflows.
+### 🌿 Git Advanced ✅ Complete!
+Branching, merging, conflicts, PRs and professional GitHub workflow.
 
 ---
 
@@ -46,18 +46,18 @@ Branching, merging, conflicts, PRs and collaborative workflows.
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 76 |
+| Total Notes | 80 |
 | Categories | 9 |
-| Completed Roadmaps | Prompt Engineering ✅, APIs ✅, Docker ✅ |
-| Latest Topics | Git branching, Merge conflicts, Color Detection, Virtual Environments, RLS |
+| Completed Roadmaps | Prompt Engineering ✅, APIs ✅, Docker ✅, Git ✅ |
+| Latest Topics | Pull Requests, GitHub Workflow, Color Detection, Virtual Environments |
 | Learning Style | Daily Incremental Learning |
 
 ---
 
 ## ⭐ Featured Notes
 
-- 🌿 [Git Branching Basics](./git/git-branching-basics.md)
-- 🌿 [Git Merging and Merge Conflicts](./git/git-merging-and-conflicts.md)
+- 🌿 [Pull Requests Explained](./git/pull-requests-explained.md)
+- 🌿 [GitHub Workflow Best Practices](./git/github-workflow-best-practices.md)
 - 🐳 [Docker for ML Model Deployment](./docker/docker-for-ml-deployment.md)
 - 🐳 [Docker Multi-stage Builds](./docker/docker-multi-stage-builds.md)
 - 🔗 [ReAct Prompting — Reason + Act](./prompt-engineering/react-prompting.md)
@@ -74,7 +74,7 @@ Branching, merging, conflicts, PRs and collaborative workflows.
 - ✅ Master API development with FastAPI
 - ✅ Complete Prompt Engineering roadmap
 - ✅ Learn Docker for ML deployment
-- 🔄 Learn Git Advanced workflows
+- ✅ Learn Git Advanced workflows
 - 📚 Document learning consistently in public
 - 🔜 Next: LangGraph, MLflow, Cloud basics
 

@@ -15,9 +15,9 @@
 | 🌐 [APIs](./apis/) | 12 | API fundamentals, REST, HTTP methods, status codes, JSON, authentication, error handling, FastAPI, Pydantic, validation, response models, deployment |
 | 🔗 [Prompt Engineering](./prompt-engineering/) | 16 | Zero-shot, Few-shot, Role prompting, CoT, Temperature, Chaining, Output formatting, ReAct, Tree of Thought, Self-consistency, RAG prompting, Agents, Hallucinations, Security |
 | 🐳 [Docker](./docker/) | 6 | Docker basics, Compose, Volumes & Networking, ML Deployment, Multi-stage builds, Dockerizing FastAPI |
-| 🤖 [LangChain & RAG](./langchain/) | 5 | RAG, FAISS, Agents, Memory, Chains, Document Loaders |
+| 🤖 [LangChain & RAG](./langchain/) | 6 | RAG, FAISS, Agents, Memory, Chains, Document Loaders, LangGraph |
 | 👁️ [Computer Vision](./computer-vision/) | 6 | Face Recognition, OpenCV, Image Processing, Object Detection, Face Recognition Deep Dive, Color Detection |
-| 📊 [Machine Learning](./machine-learning/) | 6 | Model Evaluation, SMOTE, Feature Engineering, Cross-Validation, Random Forest, Hyperparameter Tuning |
+| 📊 [Machine Learning](./machine-learning/) | 7 | Model Evaluation, SMOTE, Feature Engineering, Cross-Validation, Random Forest, Hyperparameter Tuning, Logistic Regression |
 | 📈 [Power BI](./power-bi/) | 6 | DAX Measures, Visuals & Filters, Time Intelligence, Relationships, Power Query, Row Level Security |
 | 🐍 [Python](./python/) | 7 | API Keys, List Comprehensions, Decorators, Error Handling, File Handling, Virtual Environments, OOP Basics |
 | 🌿 [Git](./git/) | 5 | Branching, Merging, Conflicts, Pull Requests, GitHub Workflow, Rebase and Stash |
@@ -49,7 +49,7 @@ Branching, merging, conflicts, PRs and professional GitHub workflow, Rebase and 
 | Total Notes | 84 |
 | Categories | 9 |
 | Completed Roadmaps | Prompt Engineering ✅, APIs ✅, Docker ✅, Git ✅ |
-| Latest Topics | Pull Requests, GitHub Workflow, Color Detection, Virtual Environments |
+| Latest Topics | LangGraph,Pull Requests, GitHub Workflow, Color Detection, Virtual Environments |
 | Learning Style | Daily Incremental Learning |
 
 ---

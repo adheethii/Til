@@ -2,7 +2,7 @@
 
 > A public learning journal documenting my journey through Python, Data Science, Machine Learning, AI, and related technologies — one note at a time.
 
-![Notes](https://img.shields.io/badge/Total%20Notes-80-brightgreen?style=flat)
+![Notes](https://img.shields.io/badge/Total%20Notes-84-brightgreen?style=flat)
 ![Categories](https://img.shields.io/badge/Categories-9-blue?style=flat)
 ![Learning](https://img.shields.io/badge/Learning-Daily-orange?style=flat)
 
@@ -19,8 +19,8 @@
 | 👁️ [Computer Vision](./computer-vision/) | 6 | Face Recognition, OpenCV, Image Processing, Object Detection, Face Recognition Deep Dive, Color Detection |
 | 📊 [Machine Learning](./machine-learning/) | 6 | Model Evaluation, SMOTE, Feature Engineering, Cross-Validation, Random Forest, Hyperparameter Tuning |
 | 📈 [Power BI](./power-bi/) | 6 | DAX Measures, Visuals & Filters, Time Intelligence, Relationships, Power Query, Row Level Security |
-| 🐍 [Python](./python/) | 6 | API Keys, List Comprehensions, Decorators, Error Handling, File Handling, Virtual Environments |
-| 🌿 [Git](./git/) | 4 | Branching, Merging, Conflicts, Pull Requests, GitHub Workflow |
+| 🐍 [Python](./python/) | 7 | API Keys, List Comprehensions, Decorators, Error Handling, File Handling, Virtual Environments, OOP Basics |
+| 🌿 [Git](./git/) | 5 | Branching, Merging, Conflicts, Pull Requests, GitHub Workflow, Rebase and Stash |
 
 ---
 
@@ -38,7 +38,7 @@ REST fundamentals to building and deploying ML-powered FastAPI endpoints.
 Containers, images, compose, volumes, multi-stage builds, and ML deployment.
 
 ### 🌿 Git Advanced ✅ Complete!
-Branching, merging, conflicts, PRs and professional GitHub workflow.
+Branching, merging, conflicts, PRs and professional GitHub workflow, Rebase and Stash.
 
 ---
 
@@ -46,7 +46,7 @@ Branching, merging, conflicts, PRs and professional GitHub workflow.
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 80 |
+| Total Notes | 84 |
 | Categories | 9 |
 | Completed Roadmaps | Prompt Engineering ✅, APIs ✅, Docker ✅, Git ✅ |
 | Latest Topics | Pull Requests, GitHub Workflow, Color Detection, Virtual Environments |

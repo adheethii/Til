@@ -2,7 +2,7 @@
 
 > A public learning journal documenting my journey through Python, Data Science, Machine Learning, AI, and related technologies — one note at a time.
 
-![Notes](https://img.shields.io/badge/Total%20Notes-84-brightgreen?style=flat)
+![Notes](https://img.shields.io/badge/Total%20Notes-81-brightgreen?style=flat)
 ![Categories](https://img.shields.io/badge/Categories-9-blue?style=flat)
 ![Learning](https://img.shields.io/badge/Learning-Daily-orange?style=flat)
 
@@ -12,15 +12,15 @@
 
 | Category | Notes | Topics Covered |
 |----------|------:|----------------|
-| 🌐 [APIs](./apis/) | 12 | API fundamentals, REST, HTTP methods, status codes, JSON, authentication, error handling, FastAPI, Pydantic, validation, response models, deployment |
-| 🔗 [Prompt Engineering](./prompt-engineering/) | 16 | Zero-shot, Few-shot, Role prompting, CoT, Temperature, Chaining, Output formatting, ReAct, Tree of Thought, Self-consistency, RAG prompting, Agents, Hallucinations, Security |
+| 🌐 [APIs](./apis/) | 15 | API fundamentals, REST, HTTP methods, status codes, JSON, authentication, error handling, FastAPI, Pydantic, validation, response models, deployment |
+| 🔗 [Prompt Engineering](./prompt-engineering/) | 17 | Zero-shot, Few-shot, Role prompting, CoT, Temperature, Chaining, Output formatting, ReAct, Tree of Thought, Self-consistency, RAG prompting, Agents, Hallucinations, Security |
 | 🐳 [Docker](./docker/) | 6 | Docker basics, Compose, Volumes & Networking, ML Deployment, Multi-stage builds, Dockerizing FastAPI |
-| 🤖 [LangChain & RAG](./langchain/) | 6 | RAG, FAISS, Agents, Memory, Chains, Document Loaders, LangGraph |
+| 🤖 [LangChain & RAG](./langchain/) | 8 | RAG, FAISS, Agents, Memory, Chains, Document Loaders, LangGraph |
 | 👁️ [Computer Vision](./computer-vision/) | 6 | Face Recognition, OpenCV, Image Processing, Object Detection, Face Recognition Deep Dive, Color Detection |
-| 📊 [Machine Learning](./machine-learning/) | 7 | Model Evaluation, SMOTE, Feature Engineering, Cross-Validation, Random Forest, Hyperparameter Tuning, Logistic Regression |
+| 📊 [Machine Learning](./machine-learning/) | 8 | Model Evaluation, SMOTE, Feature Engineering, Cross-Validation, Random Forest, Hyperparameter Tuning, Logistic Regression |
 | 📈 [Power BI](./power-bi/) | 6 | DAX Measures, Visuals & Filters, Time Intelligence, Relationships, Power Query, Row Level Security |
-| 🐍 [Python](./python/) | 7 | API Keys, List Comprehensions, Decorators, Error Handling, File Handling, Virtual Environments, OOP Basics |
-| 🌿 [Git](./git/) | 5 | Branching, Merging, Conflicts, Pull Requests, GitHub Workflow, Rebase and Stash |
+| 🐍 [Python](./python/) | 8 | API Keys, List Comprehensions, Decorators, Error Handling, File Handling, Virtual Environments, OOP Basics |
+| 🌿 [Git](./git/) | 6 | Branching, Merging, Conflicts, Pull Requests, GitHub Workflow, Rebase and Stash |
 
 ---
 
@@ -46,10 +46,10 @@ Branching, merging, conflicts, PRs and professional GitHub workflow, Rebase and 
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 84 |
+| Total Notes | 81 |
 | Categories | 9 |
 | Completed Roadmaps | Prompt Engineering ✅, APIs ✅, Docker ✅, Git ✅ |
-| Latest Topics | LangGraph,Pull Requests, GitHub Workflow, Color Detection, Virtual Environments |
+| Latest Topics | LangGraph, Pull Requests, GitHub Workflow, Color Detection, Virtual Environments |
 | Learning Style | Daily Incremental Learning |
 
 ---
@@ -58,7 +58,7 @@ Branching, merging, conflicts, PRs and professional GitHub workflow, Rebase and 
 
 - 🌿 [Pull Requests Explained](./git/pull-requests-explained.md)
 - 🌿 [GitHub Workflow Best Practices](./git/github-workflow-best-practices.md)
-- 🐳 [Docker for ML Model Deployment](./docker/docker-for-ml-deployment.md)
+- 🐳 [Docker for ML Model Deployment](./docker/docker-for-ml-model-deployment.md)
 - 🐳 [Docker Multi-stage Builds](./docker/docker-multi-stage-builds.md)
 - 🔗 [ReAct Prompting — Reason + Act](./prompt-engineering/react-prompting.md)
 - 🔗 [Avoiding Hallucinations with Prompts](./prompt-engineering/avoiding-hallucinations-with-prompts.md)

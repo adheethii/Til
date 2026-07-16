@@ -20,7 +20,7 @@
 | 📊 [Machine Learning](./machine-learning/) | 9 | Model Evaluation, SMOTE, Feature Engineering, Cross-Validation, Random Forest, Hyperparameter Tuning, Logistic Regression |
 | 📈 [Power BI](./power-bi/) | 6 | DAX Measures, Visuals & Filters, Time Intelligence, Relationships, Power Query, Row Level Security |
 | 🐍 [Python](./python/) | 8 | API Keys, List Comprehensions, Decorators, Error Handling, File Handling, Virtual Environments, OOP Basics |
-| 🌿 [Git](./git/) | 11 | Branching, Merging, PRs, GitHub Workflow, Rebase & Stash, Cherry-pick & Tags, Reset vs Revert, Log & History, Submodules, Hooks, Aliases & Config, Codespaces |
+| 🌿 [Git](./git/) | 12 | Branching, Merging, PRs, GitHub Workflow, Rebase & Stash, Cherry-pick & Tags, Reset vs Revert, Log & History, Submodules, Hooks, Aliases & Config, Codespaces |
 
 
 ---

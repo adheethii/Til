@@ -2,7 +2,7 @@
 
 > A public learning journal documenting my journey through Python, Data Science, Machine Learning, AI, and related technologies — one note at a time.
 
-![Notes](https://img.shields.io/badge/Total%20Notes-83-brightgreen?style=flat)
+![Notes](https://img.shields.io/badge/Total%20Notes-89-brightgreen?style=flat)
 ![Categories](https://img.shields.io/badge/Categories-9-blue?style=flat)
 ![Learning](https://img.shields.io/badge/Learning-Daily-orange?style=flat)
 
@@ -20,7 +20,8 @@
 | 📊 [Machine Learning](./machine-learning/) | 9 | Model Evaluation, SMOTE, Feature Engineering, Cross-Validation, Random Forest, Hyperparameter Tuning, Logistic Regression |
 | 📈 [Power BI](./power-bi/) | 6 | DAX Measures, Visuals & Filters, Time Intelligence, Relationships, Power Query, Row Level Security |
 | 🐍 [Python](./python/) | 8 | API Keys, List Comprehensions, Decorators, Error Handling, File Handling, Virtual Environments, OOP Basics |
-| 🌿 [Git](./git/) | 6 | Branching, Merging, Conflicts, Pull Requests, GitHub Workflow, Rebase and Stash |
+| 🌿 [Git](./git/) | 11 | Branching, Merging, PRs, GitHub Workflow, Rebase & Stash, Cherry-pick & Tags, Reset vs Revert, Log & History, Submodules, Hooks, Aliases & Config, Codespaces |
+
 
 ---
 
@@ -46,10 +47,10 @@ Branching, merging, conflicts, PRs and professional GitHub workflow, Rebase and 
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 83 |
+| Total Notes | 89 |
 | Categories | 9 |
 | Completed Roadmaps | Prompt Engineering ✅, APIs ✅, Docker ✅, Git ✅ |
-| Latest Topics | LangGraph, Pull Requests, GitHub Workflow, Color Detection, Virtual Environments |
+| Latest Topics | Git Reset/Revert, Git Hooks, Git Aliases, GitHub Codespaces |
 | Learning Style | Daily Incremental Learning |
 
 ---

@@ -2,7 +2,7 @@
 
 > A public learning journal documenting my journey through Python, Data Science, Machine Learning, AI, and related technologies — one note at a time.
 
-![Notes](https://img.shields.io/badge/Total%20Notes-89-brightgreen?style=flat)
+![Notes](https://img.shields.io/badge/Total%20Notes-93-brightgreen?style=flat)
 ![Categories](https://img.shields.io/badge/Categories-9-blue?style=flat)
 ![Learning](https://img.shields.io/badge/Learning-Daily-orange?style=flat)
 

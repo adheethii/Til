@@ -2,9 +2,13 @@
 
 > A public learning journal documenting my journey through Python, Data Science, Machine Learning, AI, and related technologies — one note at a time.
 
-![Notes](https://img.shields.io/badge/Total%20Notes-93-brightgreen?style=flat)
-![Categories](https://img.shields.io/badge/Categories-9-blue?style=flat)
+
+
+![Notes](https://img.shields.io/badge/Total%20Notes-100-brightgreen?style=flat)
+![Categories](https://img.shields.io/badge/Categories-10-blue?style=flat)
 ![Learning](https://img.shields.io/badge/Learning-Daily-orange?style=flat)
+
+
 
 ---
 
@@ -14,14 +18,14 @@
 |----------|------:|----------------|
 | 🌐 [APIs](./apis/) | 15 | API fundamentals, REST, HTTP methods, status codes, JSON, authentication, error handling, FastAPI, Pydantic, validation, response models, deployment |
 | 🔗 [Prompt Engineering](./prompt-engineering/) | 17 | Zero-shot, Few-shot, Role prompting, CoT, Temperature, Chaining, Output formatting, ReAct, Tree of Thought, Self-consistency, RAG prompting, Agents, Hallucinations, Security |
-| 🐳 [Docker](./docker/) | 6 | Docker basics, Compose, Volumes & Networking, ML Deployment, Multi-stage builds, Dockerizing FastAPI |
-| 🤖 [LangChain & RAG](./langchain/) | 9 | RAG, FAISS, Agents, Memory, Chains, Document Loaders, LangGraph |
+| 🐳 [Docker](./docker/) | 7 | Docker basics, Compose, Volumes & Networking, ML Deployment, Multi-stage builds, Dockerizing FastAPI |
+| 🤖 [LangChain & RAG](./langchain/) | 12 | RAG, FAISS, Agents, Memory, Chains, Document Loaders, LangGraph |
 | 👁️ [Computer Vision](./computer-vision/) | 6 | Face Recognition, OpenCV, Image Processing, Object Detection, Face Recognition Deep Dive, Color Detection |
-| 📊 [Machine Learning](./machine-learning/) | 9 | Model Evaluation, SMOTE, Feature Engineering, Cross-Validation, Random Forest, Hyperparameter Tuning, Logistic Regression |
+| 📊 [Machine Learning](./machine-learning/) | 12 | Model Evaluation, SMOTE, Feature Engineering, Cross-Validation, Random Forest, Hyperparameter Tuning, Logistic Regression |
 | 📈 [Power BI](./power-bi/) | 6 | DAX Measures, Visuals & Filters, Time Intelligence, Relationships, Power Query, Row Level Security |
-| 🐍 [Python](./python/) | 8 | API Keys, List Comprehensions, Decorators, Error Handling, File Handling, Virtual Environments, OOP Basics |
+| 🐍 [Python](./python/) | 10 | API Keys, List Comprehensions, Decorators, Error Handling, File Handling, Virtual Environments, OOP Basics |
 | 🌿 [Git](./git/) | 12 | Branching, Merging, PRs, GitHub Workflow, Rebase & Stash, Cherry-pick & Tags, Reset vs Revert, Log & History, Submodules, Hooks, Aliases & Config, Codespaces |
-
+| 🏗️ [System Design](./system-design/) | 3 | Scalability, Load Balancing, Caching, Database Basics, System Architecture Fundamentals |
 
 ---
 
@@ -47,10 +51,10 @@ Branching, merging, conflicts, PRs and professional GitHub workflow, Rebase and 
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 89 |
-| Categories | 9 |
+| Total Notes | 100 |
+| Categories | 10 |
 | Completed Roadmaps | Prompt Engineering ✅, APIs ✅, Docker ✅, Git ✅ |
-| Latest Topics | Git Reset/Revert, Git Hooks, Git Aliases, GitHub Codespaces |
+| Latest Topics | LangChain, Machine Learning, Python, System Design |
 | Learning Style | Daily Incremental Learning |
 
 ---

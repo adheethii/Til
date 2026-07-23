@@ -1,6 +1,6 @@
 # Load Balancing and Caching Basics
 
-**Date:** 2026-07-21
+**Date:** 2026-07-23
 
 ## Why These Two Topics Together
 

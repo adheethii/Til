@@ -17,7 +17,7 @@
 |----------|------:|----------------|
 | 🌐 [APIs](./apis/) | 15 | API fundamentals, REST, HTTP methods, status codes, JSON, authentication, error handling, FastAPI, Pydantic, validation, response models, deployment |
 | 🔗 [Prompt Engineering](./prompt-engineering/) | 17 | Zero-shot, Few-shot, Role prompting, CoT, Temperature, Chaining, Output formatting, ReAct, Tree of Thought, Self-consistency, RAG prompting, Agents, Hallucinations, Security |
-| 🐳 [Docker](./docker/) | 7 | Docker basics, Compose, Volumes & Networking, ML Deployment, Multi-stage builds, Dockerizing FastAPI |
+| 🐳 [Docker](./docker/) | 8 | Docker basics, Compose, Volumes & Networking, ML Deployment, Multi-stage builds, Dockerizing FastAPI |
 | 🤖 [LangChain & RAG](./langchain/) | 12 | RAG, FAISS, Agents, Memory, Chains, Document Loaders, LangGraph |
 | 👁️ [Computer Vision](./computer-vision/) | 6 | Face Recognition, OpenCV, Image Processing, Object Detection, Face Recognition Deep Dive, Color Detection |
 | 📊 [Machine Learning](./machine-learning/) | 12 | Model Evaluation, SMOTE, Feature Engineering, Cross-Validation, Random Forest, Hyperparameter Tuning, Logistic Regression |

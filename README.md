@@ -24,7 +24,7 @@
 | 📈 [Power BI](./power-bi/) | 6 | DAX Measures, Visuals & Filters, Time Intelligence, Relationships, Power Query, Row Level Security |
 | 🐍 [Python](./python/) | 10 | API Keys, List Comprehensions, Decorators, Error Handling, File Handling, Virtual Environments, OOP Basics |
 | 🌿 [Git](./git/) | 12 | Branching, Merging, PRs, GitHub Workflow, Rebase & Stash, Cherry-pick & Tags, Reset vs Revert, Log & History, Submodules, Hooks, Aliases & Config, Codespaces |
-| 🏗️ [System Design](./system-design/) | 3 | Scalability, Load Balancing, Caching, Database Basics, System Architecture Fundamentals |
+| 🏗️ [System Design](./system-design/) | 4 | Scalability, Load Balancing, Caching, Database Basics, System Architecture Fundamentals |
 
 ---
 

@@ -1,6 +1,6 @@
 # LangGraph — A Real Conditional Routing Example (Ticket Classifier)
 
-**Date:** 2026-07-29
+**Date:** 2026-07-30
 
 ## Why This Note Is Different
 

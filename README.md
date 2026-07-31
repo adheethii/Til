@@ -7,8 +7,6 @@
 ![Categories](https://img.shields.io/badge/Categories-10-blue?style=flat)
 ![Learning](https://img.shields.io/badge/Learning-Daily-orange?style=flat)
 
-
-
 ---
 
 ## 📂 Learning Areas

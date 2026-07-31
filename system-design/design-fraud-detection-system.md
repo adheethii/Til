@@ -1,6 +1,6 @@
 # Worked Example — Design a Fraud Detection System
 
-**Date:** 2026-07-30
+**Date:** 2026-07-30 
 
 ## The Question
 

@@ -1,7 +1,7 @@
 # 📚 TIL — Today I Learned
 
 > A public learning journal documenting my journey through Python, Data Science, Machine Learning, AI, and related technologies — one note at a time.
-
+ 
 
 ![Notes](https://img.shields.io/badge/Total%20Notes-100-brightgreen?style=flat)
 ![Categories](https://img.shields.io/badge/Categories-10-blue?style=flat)

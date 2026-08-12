@@ -1,6 +1,6 @@
 # FastAPI Response Models and Status Codes
 
-**Date:** 2026-06-23
+**Date:** 2026-06-23 
 
 ## What are Response Models?
 

@@ -1,6 +1,6 @@
 # Image Preprocessing Techniques
 
-**Date:** 2026-06-26
+**Date:** 2026-06-26 
 
 ## What is Image Preprocessing?
 

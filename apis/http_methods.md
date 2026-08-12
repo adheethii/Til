@@ -1,7 +1,7 @@
 # HTTP Methods Explained (GET, POST, PUT, DELETE)
 
 **Date:** 2026-06-17
-
+ 
 ## What are HTTP Methods?
 
 HTTP methods (also called verbs) tell the server **what action to perform** on a resource.

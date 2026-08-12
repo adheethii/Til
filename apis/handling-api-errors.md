@@ -1,6 +1,6 @@
 # Handling API Errors Gracefully
 
-**Date:** 2026-06-20
+**Date:** 2026-06-20 
 
 ## Why Error Handling Matters
 

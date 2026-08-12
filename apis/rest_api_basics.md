@@ -1,4 +1,4 @@
-# REST API Basics
+# REST API Basics 
 
 **Date:** 2026-06-16
 

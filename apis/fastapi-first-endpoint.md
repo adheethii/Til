@@ -1,6 +1,6 @@
 # Creating Your First FastAPI Endpoint
 
-**Date:** 2026-06-21
+**Date:** 2026-06-21 
 
 ## What is an Endpoint?
 

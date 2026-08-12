@@ -1,6 +1,6 @@
 # Color Detection with OpenCV
 
-**Date:** 2026-06-30
+**Date:** 2026-06-30 
 
 ## What is Color Detection?
 

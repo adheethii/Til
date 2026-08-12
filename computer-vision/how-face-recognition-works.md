@@ -1,6 +1,6 @@
 # How Face Recognition Works (Python `face_recognition` Library)
 
-**Date:** 2026-05-27
+**Date:** 2026-05-27 
 
 ## Overview
 

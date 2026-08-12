@@ -1,4 +1,4 @@
-# JSON Request and Response Format
+# JSON Request and Response Format 
 
 **Date:** 2026-06-19
 

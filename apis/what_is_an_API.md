@@ -1,4 +1,4 @@
-# What is an API and How it Works
+# What is an API and How it Works 
 
 **Date:** 2026-06-16
 

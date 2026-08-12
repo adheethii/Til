@@ -1,5 +1,5 @@
 # FastAPI Basics
-
+ 
 **Date:** 2026-06-21
 
 ## What is FastAPI?

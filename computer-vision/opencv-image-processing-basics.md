@@ -1,7 +1,7 @@
 # OpenCV Image Processing Basics
 
 **Date:** 2026-06-25
-
+ 
 ## What is OpenCV?
 
 OpenCV (Open Source Computer Vision Library) is the most popular Python library for image and video processing — used in face recognition, object detection, and computer vision projects.

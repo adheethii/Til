@@ -1,6 +1,6 @@
 # Pydantic Models Explained
 
-**Date:** 2026-06-22
+**Date:** 2026-06-22 
 
 ## What is Pydantic?
 

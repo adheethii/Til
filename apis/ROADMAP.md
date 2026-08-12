@@ -1,6 +1,6 @@
 # 🗺️ APIs Learning Roadmap
 
-![completed](https://img.shields.io/badge/completed✅️--brightorange?style=flat)
+![completed](https://img.shields.io/badge/completed-✅️-orange?style=flat)
 
 A structured path to understanding and building APIs — from basics to deployment.
 Topics are added one by one as I learn them.

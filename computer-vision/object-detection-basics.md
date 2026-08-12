@@ -1,6 +1,6 @@
 # Object Detection Basics with OpenCV
 
-**Date:** 2026-06-26
+**Date:** 2026-06-26 
 
 ## What is Object Detection?
 
